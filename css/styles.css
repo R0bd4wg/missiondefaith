@@ -36,7 +36,7 @@ font-size: 1.5rem;
 
 
 #intro{
-background-image: linear-gradient(blue, transparent),url("bgtester.jpg");
+background-image: linear-gradient(#9198e5,transparent),url("bgtester.jpg");
 color: #fff;
 background-size: cover;
 
@@ -46,6 +46,9 @@ background-size: cover;
 /* church schedule */
 #churchSchedule{
 list-style-position: inside;
+font-family: "Marck Script";
+font-weight: 400;
+background-color: #e5de91;
 }
 /* Photo edits */
 .introPhoto{
@@ -56,4 +59,27 @@ list-style-position: inside;
 
 .caroPhoto{
   border-radius: 60px;
+}
+
+
+
+.glyphicon.glyphicon-chevron-right{
+   color:red;
+}
+
+/* carousel */
+
+#carousel{
+background-color: #9198e5;
+}
+
+
+#footer{
+background-color: #e5de91;
+}
+
+
+#footer .padDis{
+padding: 5% 10% 5% ;
+
 }

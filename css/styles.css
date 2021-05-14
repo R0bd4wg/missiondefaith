@@ -24,7 +24,9 @@ body{
   line-height: 1.5rem;
   font-weight: 700;
 }
-
+.scriptFont{
+  font-family: "Marck Script";
+}
 /* Navbar */
 
 
@@ -87,4 +89,13 @@ background-color: #e5de91;
 #footer .padDis{
 padding: 5% 10% 5% ;
 
+}
+.carousel {
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+.caroPhoto{
+border-radius: 60px;
 }
